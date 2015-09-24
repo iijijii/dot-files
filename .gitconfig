@@ -1,0 +1,46 @@
+[color]
+	ui = auto
+[alias]
+	a = add
+	b = branch
+	ci = commit
+	cia = commit --amend
+	cim = commit -m
+	ciam = commit -am
+	co = checkout
+	cob = checkout -b
+	cp = cherry-pick
+	d = diff -b
+	dc = diff --cached
+	f = fetch
+	fix = commit --amend -a
+	fixup = commit --amend -C HEAD -a
+	l1 = log --oneline
+	l1g = log --oneline --graph --decorate
+	lg = log --oneline --graph --decorate -n10
+	lp = log -p
+	lpr = log -p --reverse
+	l = log
+	m = merge
+	mb = merge-base
+	r = reset
+	rh = reset --hard
+	rs = reset --soft
+	rb = rebase
+	rbi = rebase -i
+	rbc = rebase --continue
+	s = status
+	sh = show
+	t = tag
+[core]
+	autocrlf = true
+	filemode = false
+	pager = less -r
+	quotepath = off
+	whitespace = cr-at-eol
+[gui]
+	encoding = utf-8
+[push]
+	default = simple
+[rerere]
+	enabled = true
