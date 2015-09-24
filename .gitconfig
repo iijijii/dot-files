@@ -33,7 +33,7 @@
 	sh = show
 	t = tag
 [core]
-	autocrlf = true
+	autocrlf = false
 	filemode = false
 	pager = less -r
 	quotepath = off
