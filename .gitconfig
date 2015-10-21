@@ -2,6 +2,7 @@
 	ui = auto
 [alias]
 	a = add
+	ap = add -p
 	b = branch
 	ci = commit
 	cia = commit --amend
