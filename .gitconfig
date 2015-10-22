@@ -29,6 +29,7 @@
 	rh = reset --hard
 	rs = reset --soft
 	rb = rebase
+	rba = rebase --abort
 	rbi = rebase -i
 	rbc = rebase --continue
 	s = status
