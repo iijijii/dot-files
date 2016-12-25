@@ -1,0 +1,36 @@
+bindkey -e
+
+autoload -Uz compinit
+compinit
+autoload -Uz colors
+colors
+
+export PATH="/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin"
+export LANG=ja_JP.UTF-8
+
+HISTFILE=${HOME}/.zsh_history
+HISTSIZE=1000
+SAVEHIST=100000
+PROMPT='%/%%'
+PROMPT="%{${fg[green]}%}[%~]%{${reset_color}%} %# "
+
+setopt hist_ignore_dups
+setopt share_history
+setopt no_beep
+setopt ignore_eof
+setopt auto_cd
+setopt auto_pushd
+
+alias g=git
+alias la='ls -a'
+alias ll='ls -l'
+alias rm='rm -i'
+alias mv='mv -i'
+
+function peco-history-selection(){
+	BUFFER=`history -n 1 | tail -r  | awk '!a[$0]++' | peco`
+	CURSOR=$#BUFFER
+	zle reset-prompt]
+}
+zle -N peco-history-selection
+bindkey '^R' peco-history-selection
