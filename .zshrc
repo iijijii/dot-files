@@ -7,6 +7,7 @@ colors
 
 export PATH="/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin"
 export LANG=ja_JP.UTF-8
+export GEM_HOME="$HOME/local/gems"
 
 HISTFILE=${HOME}/.zsh_history
 HISTSIZE=1000
