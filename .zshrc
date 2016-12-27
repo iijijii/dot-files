@@ -24,6 +24,7 @@ setopt ignore_eof
 setopt auto_cd
 setopt auto_pushd
 
+alias b=brew
 alias g=git
 alias la='ls -a'
 alias ll='ls -l'
