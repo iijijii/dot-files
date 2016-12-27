@@ -26,6 +26,7 @@ setopt auto_pushd
 
 alias b=brew
 alias g=git
+alias v=vim
 alias la='ls -a'
 alias ll='ls -l'
 alias rm='rm -i'
