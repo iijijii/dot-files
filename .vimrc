@@ -12,6 +12,7 @@ set nrformats=
 set shiftwidth=2
 set tabstop=2
 set visualbell t_vb=
+set noerrorbells
 
 if &compatible
 	set nocompatible
