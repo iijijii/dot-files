@@ -28,6 +28,7 @@ call dein#add('tpope/vim-surround')
 call dein#add('tpope/vim-endwise')
 call dein#add('nelstrom/vim-visual-star-search')
 call dein#add('scrooloose/syntastic')
+call dein#add('tpope/vim-rails')
 call dein#end()
 
 let g:syntastic_mode_map = { 'mode': 'active', 'active_filetypes' : ['ruby'] }
