@@ -8,8 +8,9 @@ colors
 export PATH="/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin"
 export LANG=ja_JP.UTF-8
 export GEM_HOME="$HOME/local/gems"
-export PATH="$HOME/local/gems/bin:$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH"
-eval "(rbenv init -)"
+export RBENV_ROOT="/usr/local/var/rbenv"
+export PATH="$GEM_HOME/bin:$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH"
+eval "$(rbenv init -)"
 
 HISTFILE=${HOME}/.zsh_history
 HISTSIZE=1000
