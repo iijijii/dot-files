@@ -30,6 +30,9 @@ call dein#add('nelstrom/vim-visual-star-search')
 call dein#add('scrooloose/syntastic')
 call dein#end()
 
+let g:syntastic_mode_map = { 'mode': 'active', 'active_filetypes' : ['ruby'] }
+let g:syntastic_ruby_checkers = ['rubocop']
+
 filetype plugin indent on     " required!
 filetype indent on
 
