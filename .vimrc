@@ -27,6 +27,7 @@ call dein#add('scrooloose/nerdtree')
 call dein#add('tpope/vim-surround')
 call dein#add('tpope/vim-endwise')
 call dein#add('nelstrom/vim-visual-star-search')
+call dein#add('scrooloose/syntastic')
 call dein#end()
 
 filetype plugin indent on     " required!
