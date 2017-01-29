@@ -47,6 +47,8 @@ inoremap [ []<Esc>i
 
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 nnoremap <ESC><ESC> :nohlsearch<CR>
+nnoremap ; :
+nnoremap : ;
 
 " Put search result word at the center of the screen
 nmap n nzz
