@@ -9,6 +9,7 @@
 	ci = commit
 	cia = commit --amend
 	cim = commit -m
+	ciad = commit --amend --date="`date`"
 	ciam = commit -am
 	co = checkout
 	cob = checkout -b
