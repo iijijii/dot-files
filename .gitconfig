@@ -26,6 +26,7 @@
 	lpr = log -p --reverse
 	l = log
 	m = merge
+	ma = merge --abort
 	mb = merge-base
 	r = reset
 	rh = reset --hard
