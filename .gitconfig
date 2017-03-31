@@ -28,6 +28,7 @@
 	m = merge
 	ma = merge --abort
 	mb = merge-base
+	mn = merge --no-ff
 	r = reset
 	rh = reset --hard
 	rs = reset --soft
