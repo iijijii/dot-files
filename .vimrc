@@ -9,6 +9,7 @@ set modelines=0
 set number
 set noerrorbells
 set nrformats=
+set pastetoggle=<F3>
 set shiftwidth=2
 set tabstop=2
 set visualbell t_vb=
